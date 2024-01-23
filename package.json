@@ -1,0 +1,22 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@nuxtjs/supabase": "^1.1.5",
+        "@vee-validate/nuxt": "^4.12.4",
+        "@vee-validate/zod": "^4.12.4",
+        "nuxt": "^3.9.3",
+        "nuxt-primevue": "^0.2.2",
+        "sass": "^1.70.0",
+        "vue": "^3.4.14",
+        "vue-router": "^4.2.5"
+    }
+}
